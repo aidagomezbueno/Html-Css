@@ -1,0 +1,785 @@
+@font-face{
+    font-family: "Cooperplate";
+    src: url("../fonts/OPTICopperplate.otf");
+}
+
+@font-face{
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-VariableFont_wght.ttf");
+}
+
+@media only screen and (max-width: 400px) {
+    body{
+        background-color:white;
+    }
+}
+
+
+*{
+    padding: 0;
+    margin:0;
+    background-color:#8f8f8f;
+    max-width: 100%;
+}
+
+
+body{
+    /*background-color:#808080;*/
+    font-family: "Oswald";
+    margin: auto;
+    width: 100vmax;
+}
+
+
+
+main{
+    width: 100%;
+    margin-right: 0px;
+}
+
+#contenedor{
+    width: 100vw;
+    margin: 0px;
+    margin-right: 0px;
+    /*background-color:#808080;*/
+}
+
+
+
+aside{
+    width: 10%;
+    height: 100vh;
+    position: relative;
+    /* top: 0;*/
+    top: 15%;
+    /*margin-right: 10%;*/
+    margin-top: 9%;
+    
+    display: inline;
+    text-align: right;
+    background-color: #545454;
+
+}
+
+.content{
+    width: 80%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+.info{
+    height: 100vh;
+}
+
+.aside{
+    /*width: 100%;*/
+    width: 19%;
+    height: 140vh;
+    background-color: #545454;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    margin-right: 0;
+    margin-top: 7%;
+    padding-top: 5%;
+    float: right;
+}
+
+
+.ulaside{
+    list-style: none;
+    
+    height: 100%;
+    /*margin-top: 10%;*/
+    background-color: transparent;
+    /*margin-right: 10%;*/
+    text-align: right;
+}
+
+.ulaside li{
+    background-color: transparent;
+    display: block;
+    margin-right: 8%;
+    padding: 5%;
+    font-size: 19px;
+}
+
+.ilaside{
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+.underline{
+    text-decoration-line: underline;
+    letter-spacing: 2px;
+    
+}
+
+h1{
+    font-family: "Cooperplate";
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+h2{
+    font-family: "Oswald";
+    text-align: justify;
+    margin: auto;
+    /*display: inline-block;*/
+}
+
+h3{
+    font-family: "Oswald";
+    text-align: center;
+    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 40px;
+    display: block;
+}
+
+h4{
+    font-family: "Oswald";
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2.5%;
+}
+
+.h2grande{
+    font-family: "Oswald";
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.bloquevalores{
+    /*margin-top: 200px;*/
+
+
+}
+
+.linkcod{
+    text-decoration: none;
+    color:black;
+}
+
+#valores{
+    /*background-color: springgreen;*/
+    /*border-top:2px solid teal;*/
+    /*padding-top: 0px;*/
+    margin-bottom: 5%;
+    /*margin-bottom: 50px;*/
+    display: inline-block;
+}
+
+#rasgos{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.bloqueEmpresas{
+    margin-bottom: 5%;
+    display: inline-block;
+    width: 100vw;
+}
+
+.empresa {
+    float: left;
+    width: 20%;
+    height: 30%;
+    /*display: inline-block;*/
+    text-align: center;
+    display: flex;
+}
+
+.fotoE{
+    width: 80%;
+}
+
+.fotoE:hover{
+    transform: scale(1.05);
+}
+
+
+
+header{
+    display: inline-block;
+    background-color: #545454;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 16%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 0;
+    position: fixed;
+    z-index: 1;
+
+}
+
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-top: 3%;
+    width: 50%;
+    background-color: transparent;
+    /*margin-right: 10%;*/
+    margin-right: 10%;
+    text-align: right;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+nav li{
+    display: inline-block;
+    text-align: right;
+    padding: 3%;
+    background-color: transparent;
+    
+}
+
+nav li a:hover{
+    /*darkgreen;*/
+    border-bottom: 2px solid black;    
+}
+
+.link{
+    color: black;
+}
+
+/*nav{
+    background-color: #F0F0F0;
+}*/
+
+/*.menu{
+    height: auto;
+    width: auto;
+    background-color: #F0F0F0;
+    display: block;
+}*/
+
+#contenedor{
+    margin-top: 12.5%;
+}
+
+.clearfix{
+    clear:both;
+
+}
+
+.desc{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#grupogof{
+    /*background-color:#808080*/
+    margin-bottom: 10%;
+}
+
+
+
+
+.foto{
+    float: left;
+    /*display: inline-block;*/
+    background-color: #545454;
+    margin-top: 2%;
+    /*margin-bottom: 0%;*/
+    width: 7%;
+    margin-left: 10%;
+    /*display: inline-block;*/
+
+}
+
+.foto:hover{
+    transform: scale(1.025);
+}
+
+.banner{
+    width: 100vw;
+    height: 214px;
+    margin: auto;
+    margin-bottom: 10%;
+    /*background-image: url("/Users/aidagomezbuenoberezo/Desktop/3º Ingeniería Informática + TDE/Ingeniería Web/imagenes/Imagen1.png");*/
+    
+    background-size: 100% 100%;
+
+    animation-name: banner;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+
+
+/*.boton{
+    width: 20px;
+    text-decoration: none;
+    height: 0px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 100px;
+    opacity: 0.5;
+    flex: right;
+    text-align: justify;
+    z-index: 1;
+
+}*/
+
+@keyframes banner{
+    0%, 10%{
+        /*background-image: url("/Users/aidagomezbuenoberezo/Desktop/ingenieriaweb/websimple/images/imagen1.png");*/
+        background-image: url("../images/imagen1.png");
+        opacity: 1;
+    }
+    10%, 15%{
+        opacity: 0.5;
+    }
+    /*8.7%, 10.15%{
+        
+    }*/
+    15%, 25%{
+        /*background-image: url("/Users/aidagomezbuenoberezo/Desktop/ingenieriaweb/websimple/images/imagen2.png");*/
+        background-image: url("../images/imagen2.png");
+        opacity: 1;
+    }
+    25%, 30%{
+        opacity: 0.5;
+    }
+    /*%{
+        opacity: 0.1;
+    }*/
+    30%, 40%{
+        background-image: url("../images/imagen3.png"); 
+        opacity: 1;
+    }
+    40%, 45%{
+        opacity: 0.5;
+    }
+    /*29%, 30.45%{
+        opacity: 0.1;
+    }*/
+    45%, 55%{
+        background-image: url("../images/imagen4.png"); 
+        opacity: 1;
+    }
+    55%, 60%{
+        opacity: 0.5;
+    }
+    /*39.15%, 40.6%{
+        opacity: 0.1;
+    }*/
+    60%, 70%{
+        background-image: url("../images/imagen5.png"); 
+        opacity: 1;
+    }
+    70%, 75%{
+        opacity: 0.5;
+    }
+    /*49.3%, 50.75%{
+        opacity: 0.1;
+    }*/
+    75%, 85%{
+        background-image: url("../images/imagen6.png"); 
+        opacity: 1;
+    }
+    85%, 90%{
+        opacity: 0.5;
+    }
+    /*59.45%, 60.9%{
+        opacity: 0.1;
+    }*/
+    90%, 100%{
+        background-image: url("../images/imagen7.png"); 
+        opacity: 1;
+    }
+    /*69.6%, 71.05%{
+        opacity: 0.1;
+    }*/
+    /*70%, 80%{
+        background-image: url("/Users/aidagomezbuenoberezo/Desktop/3º Ingeniería Informática + TDE/Ingeniería Web/imagenes/Imagen8.png"); 
+        opacity: 1;
+    }*/
+    /*79.75%, 81.2%{
+        opacity: 0.1;
+    }*/
+    /*80%, 90%{
+        background-image: url("/Users/aidagomezbuenoberezo/Desktop/3º Ingeniería Informática + TDE/Ingeniería Web/imagenes/Imagen9.png"); 
+        opacity: 1;
+    }
+    /*89.9%, 91.35%{
+        opacity: 0.1;
+    }*/
+    /*90%, 100%{
+        background-image: url("/Users/aidagomezbuenoberezo/Desktop/3º Ingeniería Informática + TDE/Ingeniería Web/imagenes/Imagen10.png"); 
+        opacity: 1;
+    }*/
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+    border: 0;
+    border-radius: 10px;
+}
+
+
+.bloque{
+    width: 100%;
+    display: block;
+}
+
+.articleVal{
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 16px;
+    width: 20%;
+    float: left;
+    
+}
+
+
+
+
+
+.article{
+    font-weight: 500;
+    text-align: justify;
+    margin: auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    font-size: 16px;
+    width: 20%;
+    float: left;
+    /*background-color: #636363;*/
+}
+
+.divValRas{
+    display: block;
+}
+
+section{
+    display: block;
+    margin: auto;
+}
+
+#codconducta{
+    display: block;
+    /*margin-top: 100px;*/
+    /*border-top: 5px solid cadetblue;*/
+}
+
+.articleCod{
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.fotoPDF{
+    width: 5%;
+}
+
+.fotoPDF:hover{
+    transform: scale(1.05);
+}
+
+
+.letraCod{
+    text-align: center;
+    margin-bottom: 10%;
+    letter-spacing: 3px;
+}
+
+footer{
+    height: 20vh;
+    width: 100vw;
+    background-color: #545454;
+    border-top: 3px solid black;
+    bottom: 0;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.footer{
+    margin-top: 2.5%;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    background-color: #545454;
+    bottom: 0;
+    position: relative;
+}
+
+.footerdcha{
+    float: right;
+    margin-right: 2.5%;
+    text-align: right;
+    bottom: 18%;
+    position: relative;
+    background-color: #545454;
+    z-index: 1;
+    
+}
+
+.footerizqda{
+    float: left;
+    margin-left: 2.5%;
+    text-align: left;
+    bottom: 18%;
+    position: relative;
+    z-index: 1;
+}
+
+.footerlinks{
+    text-decoration: none;
+    color: #3f8a53;
+    background-color: #545454;
+}
+
+.titulo{
+    margin-top: 10%;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.h2Desc{
+    /*float:left;*/
+    text-align: left;
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+
+.pblanco{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    margin-bottom: 3%;
+}
+
+.pFont{
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.tituloDescAside{
+    /*margin-top: 140px;*/
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    /*padding-top: 20px;*/
+    /*padding-right: 5%;*/
+    margin-left: 10%;
+    margin-bottom: 100px;
+    text-align: justify;
+
+}
+
+.tituloDesc{
+    margin-top: 15%;
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 20px;
+    /*padding-right: 5%;*/
+    margin-left: 10%;
+    margin-bottom: 100px;
+    text-align: justify;
+
+}
+
+.pagfoto{
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-right: 10%;
+}
+
+.fotopag{
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.paglogo{
+    width: 35%;
+    height: 100%;
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+    /*margin-top: 250px;*/
+    /*margin-right: 10%;*/
+    /*float: right;*/
+}
+
+.fotologo{
+    width: 65%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 10%;
+    display: flex;
+}
+
+
+.paglogoaside{
+    width: 49%;
+    height: 100%;
+    display: inline-block;
+    align-content: center;
+    margin: auto;
+    /*margin-top: 250px;*/
+    /*margin-right: 10%;*/
+    /*float: right;*/
+}
+
+.fotologoaside{
+    width: 65%;
+    /*margin-top: 10%;*/
+    /*margin-bottom: 10%;*/
+    margin-left: 15%;
+    /*margin-right: 10%;*/
+    display: flex;
+}
+
+.fotologo:hover{
+    transform: scale(1.05);
+}
+
+.logopagaside{
+    display: inline-block;
+    margin: auto;
+    width: 100%;  
+}
+
+.videotasa{
+    width: 100%;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#cookies{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#form{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 30px;
+}
+
+form{
+    width: 100%;
+}
+
+label{
+    margin-left: 10px;
+    
+}
+
+.form{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    margin-bottom: 3%;
+    margin-left: 1.5%;
+}
+
+.formsubmit{
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid darkgray;
+    margin-bottom: 3%;
+    margin-left: 1.5%;
+}
+
+.desccontacto{
+    /*line-height: 30px;*/
+}
+
+.tablacookies{
+    width: 100%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    text-align: justify;
+    border: black;
+    border-collapse: collapse;
+    color: white;
+    font-size: 9px;
+    
+}
+
+.tablacookies th, td{
+    border: 1px solid black;
+    padding: 2%;
+    /*margin-right: 2.5%;*/
+}
+
+.tablacookies th{
+    background-color: #a3a3a3;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+
+.tablacookies td{
+    background-color: #c4c4c4;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.tdcookies{
+    margin-right: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.desccookies{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 2%;
+    /*margin-left: 10%;
+    margin-right: 10%;*/
+    line-height: 35px;
+    margin-bottom: 2%;
+}
+
+.lista{
+    margin-left: 10%;
+    line-height: 35px;
+    text-align: justify;
+}
